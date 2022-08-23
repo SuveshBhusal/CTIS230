@@ -1,11 +1,22 @@
 body {
-    color: blue;
+    color: black;
+    background-color: lightgreen;
 }
 
 h3 {
-    color: purple;
+    color: blue;
+}
+
+h3.emailandphone {
+    color: darkolivegreen;
 }
 
 h4 {
     color: darkblue;
+    background-color: bisque;
+    width: fit-content;
+}
+
+em {
+    background-color: aquamarine;
 }
