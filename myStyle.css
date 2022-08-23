@@ -1,18 +1,21 @@
 body {
     color: black;
-    background-color: lightgreen;
+    background-color: seashell;
 }
 
 h3 {
-    color: blue;
+    color: rgb(10, 39, 79);
+    background-color: rgb(85, 233, 184);
+    width: fit-content;
 }
 
-h3.emailandphone {
-    color: darkolivegreen;
+span.emailandphone {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
 }
 
 h4 {
-    color: darkblue;
+    color: rgb(4, 4, 93);
     background-color: bisque;
     width: fit-content;
 }
