@@ -44,7 +44,6 @@ a:link {
     color: green;
     text-decoration: none;
     font-size: 1.3em;
-    background-color: palevioletred;
     width: fit-content;
 }
 
@@ -54,7 +53,6 @@ a:visited {
 
 a:hover {
     font-style: bolder;
-    font-size: 1.5em;
 }
 
 a:active {
@@ -92,4 +90,21 @@ div.awardsandhonors {
 div.flexible {
     display: flex;
     align-items: center;
+    width: 700px;
+    justify-content: space-around;
+    height: 100px;
+    display: flex;
+    padding-top: 20px;
+}
+
+div.content {
+    font-size: 1.2em;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aquamarine;
+    height: 50px;
+    width: 650px;
 }
