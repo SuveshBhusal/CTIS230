@@ -2,17 +2,20 @@ body {
     color: black;
     background-color: seashell;
     font-size: .9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h3 {
     color: rgb(113, 27, 147);
     background-color: rgb(154, 177, 222);
     width: fit-content;
+    font-weight: bolder;
 }
 
 div.emailandphone {
     color: rgb(29, 60, 216);
     background-color: seashell;
+    font-style: italic;
 }
 
 h4 {
