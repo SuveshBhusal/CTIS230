@@ -3,12 +3,20 @@ body {
     background-color: bisque;
     font-size: .9em;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 h1,
 h3 {
     font-weight: 650;
     font-size: 1.15em;
+}
+
+h1 {
+    font-size: 1.7em;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 h3 {
@@ -25,7 +33,7 @@ div.emailandphone {
 
 h4 {
     color: rgb(93, 4, 71);
-    width: fit-content;
+    width: 400px;
 }
 
 em {
@@ -74,4 +82,14 @@ div.awardsandhonors {
     border: 1px solid black;
     width: 20%;
     float: right;
+}
+
+#education {
+    font-weight: 600;
+    width: 300px;
+}
+
+div.flexible {
+    display: flex;
+    align-items: center;
 }
