@@ -1,7 +1,7 @@
 body {
     color: black;
     background-color: bisque;
-    font-size: .9em;
+    font-size: 0.9em;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     margin-right: 15px;
     margin-left: 15px;
@@ -101,7 +101,7 @@ div.flexible {
 }
 
 div.content {
-    font-size: .9em;
+    font-size: 0.9em;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -121,14 +121,16 @@ div.footer {
     padding-bottom: 5px;
     text-align: center;
     border: 1px solid black;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 div.fcontent {
-    font-size: .9em;
+    font-size: 0.9em;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 1px;
     padding-right: 1px;
     height: 15px;
-    width: 900px;
+    width: 500px;
 }
