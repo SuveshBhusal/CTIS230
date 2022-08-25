@@ -89,12 +89,16 @@ section {
 #garden {
     border: 1px solid black;
     width: 200px;
-    position: absolute;
+    /* position: absolute;
     right: 0px;
     left: 310px;
     top: 100px;
-    bottom: 100px;
-    float: center;
+    bottom: 100px; */
+    /* float: right; */
+}
+
+#gardenimage {
+    text-align: center;
 }
 
 #education {
