@@ -83,7 +83,7 @@ section {
     left: 615px;
     bottom: 120px;
     top: 100px;
-    float: left;
+    /* float: left; */
 }
 
 #garden {
