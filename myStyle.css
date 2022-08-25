@@ -63,6 +63,7 @@ div em {
     color: black;
     font-weight: 800;
     font-size: 1.05em;
+    width: fit-content;
 }
 
 div.awardsandhonors {
@@ -70,15 +71,30 @@ div.awardsandhonors {
     font-weight: 500;
 }
 
+section {
+    position: relative
+}
+
 #cube {
-    width: 10%;
+    width: 100px;
     border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    left: 615px;
+    bottom: 120px;
+    top: 100px;
+    float: left;
 }
 
 #garden {
     border: 1px solid black;
-    width: 10%;
-    float: right;
+    width: 200px;
+    position: absolute;
+    right: 0px;
+    left: 310px;
+    top: 100px;
+    bottom: 100px;
+    float: center;
 }
 
 #education {
