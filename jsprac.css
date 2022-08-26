@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#newtext,
+#header {
+    text-align: center;
+    border: 1px solid black;
+}
+
+div#bigcube {
+    width: 80%;
+    display: none;
+}
