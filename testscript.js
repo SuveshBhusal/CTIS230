@@ -22,14 +22,15 @@ thebutton.addEventListener("click", onButtonClick);
 
 function onButtonClick() {
     otheritem.style.color = "red";
+    otheritem.style.fontSize = "1.4em";
 }
 
 thebutton2 = document.getElementById("thebutton2");
 otheritem2 = document.getElementById("buttontest2");
 
-thebutton2.addEventListener("click", onButtonClick);
+thebutton2.addEventListener("click", onButtonClick1);
 
-function onButtonClick() {
+function onButtonClick1() {
     otheritem2.style.color = "green";
     otheritem2.style.fontSize = "1.3em";
 }
@@ -40,4 +41,13 @@ textentry.addEventListener("change", onChange);
 function onChange() {
     newtext = myinput.value;
     otheritem.innerHTML = newtext;
+}
+
+translatebutton = document.getElementById("translatebutton");
+translatecontent = document.getElementById("translatecontent");
+
+translatebutton.addEventListener("click", onButtonClick2);
+
+function onButtonClick2() {
+    translatecontent.innerHTML = "म नेपाली राम्रोसीता बोल्छ";
 }
