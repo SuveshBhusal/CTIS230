@@ -14,3 +14,30 @@ function onmouseout() {
     myitem.style.color = "";
     myitem.style.fontSize = "";
 }
+
+thebutton = document.getElementById("thebutton");
+otheritem = document.getElementById("buttontest");
+
+thebutton.addEventListener("click", onButtonClick);
+
+function onButtonClick() {
+    otheritem.style.color = "red";
+}
+
+thebutton2 = document.getElementById("thebutton2");
+otheritem2 = document.getElementById("buttontest2");
+
+thebutton2.addEventListener("click", onButtonClick);
+
+function onButtonClick() {
+    otheritem2.style.color = "green";
+    otheritem2.style.fontSize = "1.3em";
+}
+
+textentry = document.getElementById("myinput");
+textentry.addEventListener("change", onChange);
+
+function onChange() {
+    newtext = myinput.value;
+    otheritem.innerHTML = newtext;
+}
