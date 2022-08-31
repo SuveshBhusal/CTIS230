@@ -22,7 +22,7 @@ thebutton.addEventListener("click", onButtonClick);
 
 function onButtonClick() {
     otheritem.style.color = "red";
-    otheritem.style.fontSize = "1.4em";
+    otheritem.style.textDecoration = "underline";
 }
 
 thebutton2 = document.getElementById("thebutton2");
