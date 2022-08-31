@@ -8,9 +8,9 @@ function onClick() {
 }
 //this line changes the color to green  and font size to 2em when the text labelled myitem is clciked
 
-myitem.addEventListener("mouseoff", mouseout);
+myitem.addEventListener("mouseout", onmouseout);
 
-function mouseout() {
+function onmouseout() {
     myitem.style.color = "";
     myitem.style.fontSize = "";
 }
