@@ -3,8 +3,8 @@ body {
     background-color: bisque;
     font-size: 0.9em;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 h1,
@@ -152,4 +152,25 @@ div.fcontent {
     padding-right: 1px;
     height: 15px;
     width: 500px;
+}
+
+@media (max-width: 500px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    #cube {
+        position: relative;
+        right: 0px;
+        left: 0px;
+        bottom: 0px;
+        top: 0px;
+        width: 150px;
+    }
+    #cubespot {
+        text-align: center;
+    }
 }
