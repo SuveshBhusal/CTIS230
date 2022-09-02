@@ -85,6 +85,18 @@
             top: 100px;
         }
         
+        #gosmall {
+            width: 70px;
+        }
+        
+        div#largeview {
+            position: fixed;
+        }
+        
+        .dontshow {
+            display: none;
+        }
+        
         #garden {
             border: 1px solid black;
             width: 400px;
@@ -214,6 +226,10 @@
             div.footer {
                 width: 350px;
             }
+            div#largeview {
+                position: fixed;
+                width: 150px;
+            }
         }
         /* for phone portrait */
         
@@ -221,6 +237,9 @@
             body {
                 margin-left: 3%;
                 margin-right: 3%;
+            }
+            div#imagecontain {
+                height: 300px;
             }
         }
         /* this is for phone landscape */
