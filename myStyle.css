@@ -90,7 +90,7 @@
             }
             
             div#largeview {
-                position: fixed;
+                position: relative;
             }
             
             .dontshow {
@@ -227,7 +227,7 @@
                     width: 350px;
                 }
                 div#largeview {
-                    position: fixed;
+                    position: relative;
                     width: 150px;
                 }
                 #piano {
@@ -274,6 +274,10 @@
                 }
                 #garden {
                     width: 300px
+                }
+                div#imagecontain {
+                    height: 500px;
+                    width: 500px;
                 }
             }
             /* for website but potrait veiwing */
